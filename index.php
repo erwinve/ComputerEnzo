@@ -5,7 +5,7 @@ include('./Includes/navbar.php');
     <!-- header -->
     <header class="blurheader">
         <div class="headerimage"></div>
-            <h1 class="display-1 padtop200">ComputerEnzo</h1>
+            <h1 class="display-1 padtop200 text-white">ComputerEnzo</h1>
             <hr class="headerline">
             <p class="lead">Jouw hulp bij computers, laptops, mobieltjes, hardware en software problemen.</p>
             <a href="contact.php" class="btn btn-lg btn-primary">Contact</a>
@@ -70,9 +70,10 @@ include('./Includes/navbar.php');
 	</div>
 	<!-- /About -->
 
+	<hr class="mainhr">
 
     <!-- overmij -->
-    <div class="section md-padding bg-grey">
+    <div class="section md-padding" id="overmij">
     <div class="container">
     <div class="section-header text-center">
 					<h2 class="title">Over mij</h2>
